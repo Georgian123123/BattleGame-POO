@@ -1,0 +1,26 @@
+-----------------------------------------------------------------------------------------------------------------------
+Idee de implementare
+-----------------------------------------------------------------------------------------------------------------------
+Mapa jocului - Obiect in care retin lungimea latime si un vector de vector de caractere in care retin tipul fiecarui
+teren.
+Jucatorii - Un vector de jucatori in care retin toti jucatorii.
+Knight, Rogue, Pyromancer, Wizzard - tipurile de jucator. In fiecare clasa calculez dmg-ul pe abilitatile fiecaruia.
+Fiecare jucator depinde de terenul pe care se afla si jucatorul cu care se lupta, asadar, in functie de teren, daca e
+pe terenul special specific lui el castiga un bonus, daca nu, nu castiga, iar in functie de jucatorul cu care se lupta,
+pierde sau castiga dmg in plus.
+Clasa de constante in care imi retin toate constantele necesare.
+Clasa GameEngine unde derulez tot jocul.
+-----------------------------------------------------------------------------------------------------------------------
+Derulajrea jocului
+-----------------------------------------------------------------------------------------------------------------------
+TOti jucatorii se muta simultan. Asadar intr-un vector de stringuri retin toate miscarile unui jucator. Se poate misca
+daca nu iese din mapa, si daca nu sufera de vreun efect al vreunui dintre adversarii lui.
+Dupa mutarea tuturor jucatorilor, verific care sunt pe aceeasi pozitie.Aceia se vor inrfunta. Dmg-ul il dau simultan,
+deci intai calculez dmg-ul pe abilitatile amandurora.
+-----------------------------------------------------------------------------------------------------------------------
+Structuri de date folosite
+-----------------------------------------------------------------------------------------------------------------------
+Vectori de stringuri
+Vectori de vectori de caractere
+Vectori de caractere
+-----------------------------------------------------------------------------------------------------------------------

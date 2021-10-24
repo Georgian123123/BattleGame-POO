@@ -1,6 +1,7 @@
 -----------------------------------------------------------------------------------------------------------------------
 Idee de implementare
 -----------------------------------------------------------------------------------------------------------------------
+
 Mapa jocului - Obiect in care retin lungimea latime si un vector de vector de caractere in care retin tipul fiecarui
 teren.
 Jucatorii - Un vector de jucatori in care retin toti jucatorii.
